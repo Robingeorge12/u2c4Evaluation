@@ -15,7 +15,7 @@
       <h1><a href="./favourites.html">Favourites</a></h1>
     </div>
 
-    <select id="filterVenue">
+    <select id="filterVenue" onChange="check()">
       <option value="none">Filter by venue</option>
       <option value="Mumbai">Mumbai</option>
       <option value="Banglore">Banglore</option>
@@ -43,4 +43,43 @@
   </body>
 </html>
 
-<script src="matches.js"></script>
+<script src="matches.js">
+
+
+// var data=JSON.parse(localStorage.getItem("schedule"))
+
+// display(data)
+
+// function display(data)
+// {
+
+// data.forEach(function(el){
+
+// var box=document.createElement("tr")
+
+// var td1=document.createComment("td")
+// td1.innerText=el.mat
+// var td2=document.createComment("td")
+// td2.innerText=el.team1
+// var td3=document.createComment("td")
+// td3.innerText=el.team2
+// var td4=document.createComment("td")
+// td4.innerText=el.day
+// var td5=document.createComment("td")
+// td5.innerText=el.place
+// var btn=document.createComment("button")
+// btn.innerText="Add as Favourites"
+// btn.style.color="green"
+
+
+// box.append(td1,td2,td3,td4,td5,btn)
+// document.querySelector("tbody").append(box)
+// console.log("data")
+
+// })
+
+
+// }
+
+  
+</script>
